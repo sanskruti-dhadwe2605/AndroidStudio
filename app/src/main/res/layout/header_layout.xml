@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="260dp"
+    android:layout_gravity="start"
+    android:paddingStart="11dp"
+    android:background="@color/teal_700"
+    android:id="@+id/header_layout"
+    android:gravity="start"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/Profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        tools:layout_editor_absoluteX="141dp"
+
+        tools:layout_editor_absoluteY="126dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:contentDescription="header image"
+
+        />
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+        android:text="sanskruti Dhadwe"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+
+        />
+    <TextView
+        android:id="@+id/empid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Name"
+
+        android:layout_marginTop="20dp"
+
+        android:text="80102281"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+
+        />
+
+
+
+
+
+</LinearLayout>

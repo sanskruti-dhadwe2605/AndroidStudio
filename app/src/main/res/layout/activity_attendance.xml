@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/updated"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/pagename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="ATTENDANCE"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+
+        />
+    <ImageView
+        android:id="@+id/photu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="20dp"
+
+        android:layout_below="@+id/pagename"
+        android:src="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="141dp"
+
+        tools:layout_editor_absoluteY="126dp"/>
+
+    <TextView
+        android:id="@+id/empname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/photu"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:text="Name : sanskruti Dhadwe"
+        android:gravity="start"
+        android:layout_marginStart="20dp"
+        android:textSize="25dp"
+        android:background="@drawable/styleborder"
+        android:paddingStart="10dp"
+        />
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/empname"
+        android:layout_marginTop="30dp"
+       android:layout_marginStart="320dp"
+        android:textSize="25dp"
+        android:text="date"/>
+
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/empname"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="70dp"
+        android:background="#ABEEF6"
+        android:foregroundGravity="center" />
+
+
+
+
+
+
+</RelativeLayout>

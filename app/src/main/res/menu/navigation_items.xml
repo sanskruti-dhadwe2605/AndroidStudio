@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:id="@+id/DashBoard"
+    android:title="Dashboard"
+    android:icon="@drawable/ic_baseline_dashboard_24"
+    />
+
+    <item android:id="@+id/Leaves"
+        android:title="Leaves"
+        android:icon="@drawable/ic_baseline_pause_circle_filled_24"/>
+    <item android:id="@+id/Assets"
+        android:title="Assets"
+        android:icon="@drawable/ic_baseline_web_asset_24"/>
+    <item android:id="@+id/Attendance"
+        android:title="Attendance"
+        android:icon="@drawable/ic_baseline_bookmark_added_24"/>
+
+</menu>

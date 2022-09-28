@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/updated"
+    xmlns:tools="http://schemas.android.com/tools">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/container"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="USER PROFILE"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/Profile"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:src="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="141dp"
+
+        tools:layout_editor_absoluteY="126dp" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Name: sanskruti Dhadwe"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Name"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Email ID:sanskrutidhadwe26@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <TextView
+        android:id="@+id/EmployeeId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Email"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+
+        android:text="Employee Id:80102281"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <EditText
+        android:id="@+id/RecentLeave"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/EmployeeId"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/styleborder"
+
+        android:gravity="center"
+        android:hint="Recent Leave"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EmployeeId"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="74dp"
+        android:background="#21B4C6"
+        android:text="Apply"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/assets"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/RecentLeave"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:hint="Approved asset"
+        android:gravity="center"
+        android:background="@drawable/styleborder"
+
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RecentLeave"
+        android:layout_marginTop="74dp"
+        android:layout_marginStart="320dp"
+        android:background="#21B4C6"
+        android:text="Apply" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/assets"
+        android:layout_marginTop="30dp"
+        android:text="mark you today's attendance "/>
+
+
+
+
+
+
+</RelativeLayout>
+
+
